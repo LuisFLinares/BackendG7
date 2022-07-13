@@ -31,7 +31,7 @@ conexion.init_app(app)
 @app.route('/', methods=['GET'])
 def inicio():
     return{
-        'message:' 'Bienvenido a mi API de concierto'
+        'message': 'Bienvenido a mi API de concierto'
     }
 # definicion de rutas usando flask resful
 api.add_resource(ParticipanteController, '/participantes')
