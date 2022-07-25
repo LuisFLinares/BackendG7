@@ -1,2 +1,2 @@
-entorno_flask/
-entorno_django/
+node_modules/
+.env/
